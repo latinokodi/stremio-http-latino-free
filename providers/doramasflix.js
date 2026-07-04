@@ -85,7 +85,7 @@ function fetchText(_0) {
 }
 
 // src/doramasflix/extractor.js
-var import_cheerio_without_node_native = __toESM(require("cheerio-without-node-native"));
+var cheerio = require("cheerio");
 
 // src/doramasflix/resolvers.js
 var UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
@@ -528,7 +528,7 @@ function extractEmbedLinks(episodeUrl) {
     var _a, _b;
     try {
       const html = yield fetchText(episodeUrl);
-      const $ = import_cheerio_without_node_native.default.load(html);
+      const $ = cheerio.load(html);
       const links = [];
       const seen = /* @__PURE__ */ new Set();
       $("iframe").each((i, elem) => {
