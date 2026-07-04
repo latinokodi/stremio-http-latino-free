@@ -30,9 +30,9 @@ const manifest = {
     // We speak Spanish
     catalogs: [],
 
-    // Optional: icon and background
-    // icon: "https://latinokodi.site/latinuvio-icon.png",
-    // background: "https://latinokodi.site/latinuvio-bg.jpg",
+    // Logo and background (hosted alongside the addon)
+    logo: "https://latinokodi.site/stremio-http-latino-free/logo.png",
+    background: "https://latinokodi.site/stremio-http-latino-free/background.jpg",
 
     // Behavior hints for Stremio
     behaviorHints: {
