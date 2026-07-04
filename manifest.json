@@ -1,0 +1,725 @@
+{
+  "name": "Latinuvio Stremio Providers",
+  "version": "1.0.0",
+  "description": "Registro de proveedores de contenido en español latino",
+  "scrapers": [
+    {
+      "id": "allpeliculasse",
+      "name": "AllpeliculasSE",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/allpeliculasse.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "animeav1",
+      "name": "AnimeAV1",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/animeav1.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "areshd",
+      "name": "AresHD",
+      "description": "Películas y series en español latino",
+      "version": "1.1.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/areshd.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "cine24h",
+      "name": "Cine24h",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/cine24h.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "cinecalidad",
+      "name": "CineCalidad",
+      "description": "Películas en español latino (formatos: m3u8, mp4)",
+      "version": "2.3.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinecalidad.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "cinemitas",
+      "name": "Cinemitas",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/cinemitas.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "cuevanaubd",
+      "name": "Cuevana UBD",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "1.2.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/cuevana.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "doramasflix",
+      "name": "DoramasFlix",
+      "description": "Series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/doramasflix.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "elifilms",
+      "name": "EliFilms",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/elifilms.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "embed69",
+      "name": "Embed69",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "3.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/embed69.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ]
+    },
+    {
+      "id": "entrepeliculasyseries",
+      "name": "EntrePeliculasySeries",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/entrepeliculasyseries.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "fuegocine",
+      "name": "FuegoCine",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "7.0.3",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/fuegocine.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "gnula",
+      "name": "Gnula",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/gnula.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "hackstore",
+      "name": "HackStore",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "12.9.2",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hackstore2.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "henaojara",
+      "name": "Henaojara",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/henaojara.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "homecine",
+      "name": "HomeCine",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/homecine.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "lacartoons",
+      "name": "La Cartoons",
+      "description": "Series en español latino",
+      "version": "1.1.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/lacartoons.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "lamovie",
+      "name": "LaMovie",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "2.5.5",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/lamovie.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "megadedeoficial",
+      "name": "MegaDedeOficial",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/megadedeoficial.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "mirandogratis",
+      "name": "MirandoGratis",
+      "description": "Películas en español latino",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/mirandogratis.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "peliculasflix",
+      "name": "PeliculasFlix",
+      "description": "Películas en español latino",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/peliculasflix.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "pelis182",
+      "name": "Pelis182",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/pelis182.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "peliserieshoy",
+      "name": "PelisSeriesHoy",
+      "description": "Películas y series en español latino",
+      "version": "2.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/peliserieshoy.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "pelisgo",
+      "name": "PelisGo",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "9.1.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/pelisgo.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "pelisgratishd",
+      "name": "PelisGratisHD",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/pelisgratishd.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "pelispanda",
+      "name": "PelisPanda",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "12.9.8",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/pelispanda.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "pelisplus",
+      "name": "PelisPlusHD",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "12.7.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/pelisplus.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "playhubmax",
+      "name": "PlayHubMax",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "2.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/playhubmax.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "repelishd",
+      "name": "RepelisHD",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/repelishd.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "retrolatino",
+      "name": "Retro Latino",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/retrolatino.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "retrotve",
+      "name": "Colección 2",
+      "description": "Películas y series en español latino",
+      "version": "1.1.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/retrotve.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "seriesgato",
+      "name": "SeriesGato",
+      "description": "Series en español latino",
+      "version": "1.1.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/seriesgato.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "seriesmetro",
+      "name": "SeriesMetro",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/seriesmetro.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "sololatino",
+      "name": "SoloLatino",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "3.4.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/sololatino.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "tioanime",
+      "name": "TioAnime",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/tioanime.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "tioplus",
+      "name": "TioPlus",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "2.1.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/tioplus.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "veronline",
+      "name": "VerOnline",
+      "description": "Series en español latino",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/veronline.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "verpelis",
+      "name": "VerPelis",
+      "description": "Películas y series en español latino",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/verpelis.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "vimeus",
+      "name": "Vimeus",
+      "description": "Películas y series en español latino (formatos: m3u8, mp4)",
+      "version": "1.0.1",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vimeus.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ]
+    },
+    {
+      "id": "vitaminagg",
+      "name": "VitaminagG",
+      "description": "Películas y series en español latino (formatos: m3u8)",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vitaminagg.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": true
+    }
+  ]
+}

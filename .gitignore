@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Hermes agent (forbidden per project rules)
+.agent/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local

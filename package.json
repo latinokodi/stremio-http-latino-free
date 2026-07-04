@@ -1,0 +1,16 @@
+{
+  "name": "stremio-latinuvio",
+  "version": "1.0.0",
+  "description": "Stremio addon for Latino content — movies, series & anime from 27+ providers.",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "cheerio-without-node-native": "^0.20.2",
+    "crypto-js": "^4.2.0",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
