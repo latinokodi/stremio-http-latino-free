@@ -1,4 +1,4 @@
-# Stremio Latinuvio
+# HTTP Latino Free
 
 Add-on para Stremio que provee acceso a contenido en español latino.
 

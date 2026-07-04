@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Stremio Latinuvio Addon
+ * Stremio HTTP Latino Free
  *
  * Streams en español latino para películas, series y anime.
  *
@@ -16,7 +16,7 @@ const manifest = {
     id: "org.latinokodi.latinuvio",
     version: "1.0.0",
 
-    name: "Latinuvio",
+    name: "HTTP Latino Free",
     description: "Streams en español latino para películas, series y anime.",
 
     // Set to "other" since we target Spanish content, not English
@@ -101,7 +101,7 @@ const PORT = process.env.PORT || 7000;
 serveHTTP(builder.getInterface(), { port: PORT });
 
 console.log(`\n========================================`);
-console.log(`  Latinuvio Stremio Addon v${manifest.version}`);
+console.log(`  HTTP Latino Free v${manifest.version}`);
 console.log(`  http://localhost:${PORT}/manifest.json`);
 console.log(`  http://localhost:${PORT}/configure`);
 console.log(`========================================\n`);
